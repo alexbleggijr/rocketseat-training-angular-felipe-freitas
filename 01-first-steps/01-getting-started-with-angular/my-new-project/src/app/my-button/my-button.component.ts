@@ -7,10 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './my-button.component.scss',
 })
 export class MyButtonComponent {
-  limpar() {
-    console.log('Método limpar');
-  }
-
   filtrar() {
     console.log('Método limpar');
   }
