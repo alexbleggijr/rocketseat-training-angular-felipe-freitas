@@ -1,12 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-
+import { MyButtonComponent } from './my-button/my-button.component';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [MyButtonComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
-export class AppComponent {
-  title = 'my-new-project';
-}
+export class AppComponent {}
