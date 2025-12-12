@@ -1,0 +1,10 @@
+<input
+  id="my-input"
+  [type]="inputType"
+  [value]="texto"
+  [disabled]="inputDisabled"
+  (input)="onInputChange($event)"
+/>
+<button (click)="habilitarInput()">Habilitar</button>
+<button (click)="desabilitarInput()">Desabilitar</button>
+<button (click)="logarTexto()">Logar texto</button>
