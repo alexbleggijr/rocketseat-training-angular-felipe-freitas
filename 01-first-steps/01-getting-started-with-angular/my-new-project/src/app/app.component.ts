@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { ButtonFlatComponent } from './button-flat/button-flat.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
 import { MyButtonComponent } from './my-button/my-button.component';
 @Component({
   selector: 'app-root',
-  imports: [MyButtonComponent, ButtonFlatComponent],
+  imports: [MyButtonComponent, ButtonFlatComponent, EventBindingComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
